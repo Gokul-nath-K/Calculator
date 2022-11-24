@@ -1,0 +1,58 @@
+.cal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 2px solid;
+    border-color: aliceblue;
+    padding: 30px;
+  }
+
+  body {
+    background-color: black;
+  }
+
+  table {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  input[type="button"] {
+    background-color: grey;
+    color: white;
+    font-size: 32px;
+    font-weight: bold;
+    border: none;
+    height: 80px;
+    width: 80px;
+    border-radius: 100%;
+    box-shadow: 0 2px 4px rgb(18, 20, 20);
+    margin-top: 8px;
+    margin-left: 8px;
+  }
+
+  input[type="text"] {
+    text-align: right;
+    padding: 8px;
+    font-size: 35px;
+    border: none;
+    border-radius: 60px;
+    height: 65px;
+    width: 100%;
+    background-color: black;
+    border-color: black;
+    color: white;
+  }
+
+  #sym {
+    background-color: orange;
+  }
+
+  #equ {
+    background-color: rgb(54, 54, 243);
+  }
+
+  #result:focus {
+    outline: none !important;
+    border-color: #000000;
+  }
